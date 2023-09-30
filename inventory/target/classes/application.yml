@@ -1,0 +1,25 @@
+server:
+  port: 2525
+  servlet:
+    context-path: /solv
+
+gotech:
+  base_url: localhost:2525
+
+controller:
+  path: "com.solv.inventory.controller"
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher #to resolve error related to swagger
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/user_inventory
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Neemesh@123
+    dialect: org.hibernate.dialect.MySQL8Dialect
+  jpa:
+    hibernate.ddl-auto: update
+    show-sql: true

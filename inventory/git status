@@ -1,0 +1,23 @@
+[33mcommit bc4fc368aa44b7536bf9f8be5f6ffd7b5265d229[m[33m ([m[1;36mHEAD -> [m[1;32mtask1[m[33m, [m[1;31morigin/task1[m[33m)[m
+Author: neemesh-707 <neemesh.kumar@solvezy.com>
+Date:   Tue Sep 5 12:29:35 2023 +0530
+
+    Implemented Api add user
+
+[33mcommit 8ad44491469a00376ed2e882ec848071de5f8d19[m
+Author: neemesh-707 <neemesh.kumar@solvezy.com>
+Date:   Mon Sep 4 16:23:14 2023 +0530
+
+    Created a user entity class
+
+[33mcommit fe0798517f6fc952868270f6999c230e754bd58c[m[33m ([m[1;32mdev[m[33m)[m
+Author: asma <asma.shaikh@solvezy.com>
+Date:   Mon Sep 4 15:03:18 2023 +0530
+
+    Swagger Implementation
+
+[33mcommit 34150251e0d08f1304ec830885f9010e038c61d0[m
+Author: asma <asma.shaikh@solvezy.com>
+Date:   Mon Sep 4 13:46:21 2023 +0530
+
+    Project Structure
