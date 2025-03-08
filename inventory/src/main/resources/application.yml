@@ -15,7 +15,7 @@ spring:
       matching-strategy: ant_path_matcher #to resolve error related to swagger
   h2:
     console:
-      enabled: true      # Enables the H2 console
+      enabled: true      # Enables the H2 console for logging
       path: /h2-console  # URL path to access the H2 console
 
   datasource:
