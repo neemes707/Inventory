@@ -13,13 +13,18 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher #to resolve error related to swagger
+  h2:
+    console:
+      enabled: true      # Enables the H2 console
+      path: /h2-console  # URL path to access the H2 console
 
   datasource:
-    url: jdbc:mysql://localhost:3306/user_inventory
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: Neemesh@123
-    dialect: org.hibernate.dialect.MySQL8Dialect
+    url: jdbc:h2:mem:testdb   # In-memory database
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+    platform: h2
+
   jpa:
     hibernate.ddl-auto: update
     show-sql: true
